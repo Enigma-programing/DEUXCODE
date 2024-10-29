@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+        
+html {
+            background-color: #261b42;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+}
+
+body {
+            font-family: 'Montserrat', sans-serif;
+            background-image: url('./img/fondo1.png');
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #fff;
+        }
+
+        header {
+            background-image: url('./img/negro.png');
+            text-align: center;
+            background-size: cover; /* Asegura que la imagen cubra todo el ancho */
+            background-position: center; /* Centra la imagen */
+            background-repeat: no-repeat; /* Evita que la imagen se repita */
+            color: #fff;
+            text-align: center;
+            width: 100%;
+            height: 300px; /* Ajusta la altura según lo que necesites */
+            position: relative;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #cba4f2;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #fff;
+        }
+
+        header img {
+            position: absolute;
+            top: 80px;
+            left: 70px;
+            width: 120px;
+        }
+
+        /* Estilos para la navegación */
+        nav {
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 15px; /* Separación entre los botones */
+            font-weight: bold;
+            padding: 10px 20px;
+            background-color: #ad60f4;
+            border-radius: 25px;
+            transition: background-color 0.3s ease;
+            text-align: center;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #261b42;
+        }
+
+        nav a::before {
+            content: attr(data-text);
+            display: block;
+            text-align: center;
+            color: #fff;
+        }
+
+        section {
+            max-width: 1000px;
+            background-color: #2b183b;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            margin: 50px;
+            text-align: center;
+        }
+
+        .service-card {
+            display: inline-block;
+            width: 30%;
+            margin: 20px;
+            padding: 20px;
+            background-color: #0f3460;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .service-card img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .service-card h3 {
+            color: #e94560;
+        }
+
+        footer {
+            background-color: #0f3460;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+        .FormContacto a {
+            color: rgb(255, 255, 255); /* Color del enlace por defecto */
+            text-decoration: none; /* Quita el subrayado del enlace */
+        }
+        
+        .FormContacto a:hover {
+            color: rgb(204, 0, 255); /* Color del enlace al pasar el cursor */
+        }
+        .LINK {
+            background-color: #7944fd93;
+            width: 150px;
+            height: 23px;
+            margin: auto;
+            border-radius: 40px;
+        }
+        #contacto input[type="submit"] {
+            background-color: #6f06e69f;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #contacto input[type="submit"]:hover {
+            background-color: #9900ff;
+        }
+
+        /* Estilos para el perfil de equipo */
+        .team-member {
+            margin-bottom: 20px;
+        }
+
+        .team-member h3 {
+            color: #ffffff;
+        }
+
+        .team-member p {
+            color: #fff;
+        }
